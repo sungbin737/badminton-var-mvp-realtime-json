@@ -1,0 +1,7 @@
+numpy>=1.26
+opencv-python-headless>=4.9
+gdown>=5.2
+
+# TrackNetV3 inference package. Install a CUDA-matched PyTorch build before
+# installing this file when deploying to a GPU server.
+git+https://github.com/ZSHYC/BadmintonTrackNet.git@master

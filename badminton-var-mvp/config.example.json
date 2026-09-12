@@ -1,0 +1,29 @@
+{
+  "court": {
+    "name": "doubles",
+    "width_m": 6.10,
+    "length_m": 13.40,
+    "line_width_m": 0.04
+  },
+  "camera_a": {
+    "video": "camera_a.mp4",
+    "fps": 120,
+    "court_image_points": [[164, 774], [1758, 774], [1432, 202], [408, 202]]
+  },
+  "camera_b": {
+    "video": "camera_b.mp4",
+    "fps": 120,
+    "court_image_points": [[153, 743], [1771, 743], [1490, 221], [374, 221]]
+  },
+  "sync": {
+    "camera_b_offset_ms": 0,
+    "max_pair_delta_ms": 18
+  },
+  "thresholds": {
+    "max_plane_disagreement_m": 0.35,
+    "line_review_margin_m": 0.15,
+    "min_landing_confidence": 0.45,
+    "min_touch_confidence": 0.40,
+    "min_touch_separation_ms": 120
+  }
+}
